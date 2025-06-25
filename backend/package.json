@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@types/node": "20.9.0",
+    "aws-cdk": "2.160.0",
+    "esbuild": "0.25.1",
+    "ts-node": "10.9.1",
+    "typescript": "5.2.2"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "3.651.1",
+    "aws-cdk-lib": "2.201.0",
+    "cdk-nag": "2.28.195",
+    "constructs": "10.3.0",
+    "source-map-support": "0.5.21"
+  }
+}

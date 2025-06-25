@@ -1,0 +1,16 @@
+
+!jest.config.js
+*.d.ts
+node_modules
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+cdk.context.json
+
+filtered_licenses.csv
+licenses.csv
+process-licenses.js
+cdk-nag-output.txt
+
+.DS_Store
